@@ -44,7 +44,7 @@
                         <ul class="list-inline">
                             <li><a href="{{$member->facebook }}"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
-                            <li><a href="{{ $member->linkdin }}"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                            <li><a href="{{ $member->linkedin }}"><i class="fa fa-2x fa-linkedin-square"></i></a>
                             </li>
                             <li><a href="{{ $member->twitter }}"><i class="fa fa-2x fa-twitter-square"></i></a>
                             </li>

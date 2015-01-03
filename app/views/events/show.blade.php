@@ -8,7 +8,6 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">{{{$event->title}}}
-                    <small>Subheading</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li>{{ HTML::link('/', 'Home') }}
@@ -67,15 +66,7 @@
             <div class="col-md-4">
                 <h3>{{{$event->title}}}</h3>
                 <p>{{{$event->content}}}</p>
-
-                @if ($event->volunteers->count() > 0)
-                    <h3>Volunteers That helped</h3>
-                @endif
                 
-                @foreach($event->volunteers as $volunteer)
-                    <li>{{{$volunteer->name}}}</li>
-                @endforeach
-                </ul>
             </div>
 
 
@@ -122,5 +113,19 @@
         @endif
         <hr>
 
+        
+        <!-- Related Projects Row -->
+        <div class="row">
 
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
+            @if ($event->volunteers->count() > 0)
+                <h3>Volunteers That helped</h3>
+            @endif
+                    
+            @foreach($event->volunteers as $volunteer)
+                <li>{{{$volunteer->name}}}</li>
+            @endforeach
+        </div>
 @stop

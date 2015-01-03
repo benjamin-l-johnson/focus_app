@@ -117,12 +117,6 @@
         @endforeach
         </div>
 
-    <div class="col-md-12">
-      <div class="embed-responsive embed-responsive-4by3" id="individual" >
-          <iframe class="embed-responsive-item" src="https://www.google.com/calendar/embed?title=FOCUS%20Kalamazoo&#39;s%20Event%20Calendar&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ciu5ovedes9287u4h3qdgf500o%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York" style=" border-width:0 " frameborder="0" scrolling="no">Loading</iframe>
-       </div>
-    </div>
-
 
 
 
