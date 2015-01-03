@@ -12,7 +12,7 @@
                 <ol class="breadcrumb">
                     <li>{{ HTML::link('/', 'Home') }}
                     </li>
-                    <li>{{ HTML::link('/organizations/nonprofits', 'Nonprofits') }}
+                    <li>{{ HTML::link('/organizations/nonprofits', 'Groups') }}
                     </li>
                     <li class="active">{{$nProf->name}}</li>
                 </ol>

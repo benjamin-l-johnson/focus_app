@@ -75,7 +75,7 @@
                         <h4><i class="fa fa-fw fa-compass"></i> Events </h4>
                     </div>
                     <div class="panel-body">
-                        <p>Check out all of our past events.</p>
+                        <p>Check out all of the past events we have participated in.</p>
                         <a href="{{URL::to('events#all')}}" class="btn btn-default">Learn More</a>
                     </div>
                 </div>

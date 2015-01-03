@@ -36,7 +36,7 @@
 
                         <div class="panel-body">
                             <p>Get yourself involved in the community with FOCUS Kalamazoo.</p>
-                            <a href="https://docs.google.com/forms/d/1yiqVo-7SAS0oHqGTIic4DqnpZ88yKDmIDJVXt5jxeVQ" class="btn btn-default">Sign Up!</a>
+                            <a href="https://docs.google.com/forms/d/1yiqVo-7SAS0oHqGTIic4DqnpZ88yKDmIDJVXt5jxeVQ/viewform?usp=send_form" class="btn btn-default">Sign Up!</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="panel-body">
                             <p>Click to sign up a group of more than 5 volunteers.</p>
-                            <a href="https://docs.google.com/forms/d/1FFj8xn9UjpQXiaOlTiiOVvZtwsVQZa1_2akX4b9QGWs" class="btn btn-default" class="btn btn-default">Sign Up!</a>
+                            <a href="https://docs.google.com/forms/d/1FFj8xn9UjpQXiaOlTiiOVvZtwsVQZa1_2akX4b9QGWs/viewform?usp=send_form" class="btn btn-default" class="btn btn-default">Sign Up!</a>
                         </div>
                     </div>
                 </div>
