@@ -42,13 +42,20 @@
                             <small>{{{ $member->job_title}}}</small>
                         </h3>
                         <ul class="list-inline">
+                            
+
                             <li><a href="{{$member->facebook }}"><i class="fa fa-2x fa-facebook-square"></i></a>
                             </li>
                             <li><a href="{{ $member->linkedin }}"><i class="fa fa-2x fa-linkedin-square"></i></a>
                             </li>
+                            
+                            @if($member->twitter)
                             <li><a href="{{ $member->twitter }}"><i class="fa fa-2x fa-twitter-square"></i></a>
                             </li>
-                            <!--<button class="btn btn-primary" data-toggle="modal" data-target="#{{{$member->id}}}">Large modal</button>-->
+                            @endif
+
+                            <li><a href="{{ $member->instagram }}"><i class="fa fa-2x fa-instagram"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
