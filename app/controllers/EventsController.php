@@ -44,16 +44,21 @@ class EventsController extends BaseController {
 
 
 		$cont = $events->content;
-		$relProj = $events->whereHas('nonprofits', function($q) use ($events)
+		
+		/*
+			Eventually we want to show related projects, but for now, we can just 
+			show all the nonprofits, and studet orgs that help
+		*/
+		/*$relProj = $events->whereHas('nonprofits', function($q) use ($events)
 		{
     		$q->where('content', 'like',"%$events->content%");
 
 		})->take(4)->get();
+		*/
 
-		Log::warning(DB::getQueryLog());
 		$data = array(
 			'event'		=> $events,
-			'relProjs'	=> $relProj,
+			//'relProjs'	=> $relProj,
 			'files'		=> $files
 
 			);

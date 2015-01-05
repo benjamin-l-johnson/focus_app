@@ -66,7 +66,7 @@
              <div class="col-md-4">
                 <h3>Contact Details</h3>
                 <p>
-                    1903 West Michigan Avenue <br> Kalamazoo, MI 49008<br>
+                    2421 Crest Dr. <br> Kalamazoo, MI 49008<br>
                 </p>
 
                 <p><i class="fa fa-phone"></i> 

@@ -72,19 +72,22 @@
 
         </div>
         <!-- /.row -->
-
-        @if (count($relProjs)>0)
         
+
+        @if(count($event->students)>0)
         <!-- Related Projects Row -->
-        <div class="row">
 
-        <div class="col-lg-12">
-            <h3 class="page-header">Related Projects</h3>
-        </div>
+        <div class="row">
         
-        @foreach($relProjs as $relProj)
-        <div class="col-sm-3 col-xs-6">
-            <a href="{{ URL::route('event',array($relProj->id)) }}">
+            <div class="col-lg-12">
+                <h3 class="page-header">Groups that helped</h3>
+            </div>
+
+            @foreach($event->students as $stu)
+
+           
+            <div class="col-sm-3 col-xs-6">
+                <a href="{{ URL::route('students',array($stu->id)) }}">
                     
                     <!--A hackish way to lay text over an image in bootstrap-->
                     <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -92,24 +95,64 @@
                             <div class="item active">
 
                             {{--Insert image--}}
-                            {{ HTML::image($relProj->images_path.$relProj->cover_photo_name, '', array('class' => 'img-responsive img-hover')) }}
+                            {{ HTML::image("$stu->images_path/$stu->cover_photo_name", " ", array('class' => 'img-responsive img-hover img-related')) }}
                                
                                <div class="carousel-caption">
-                               {{{$relProj->title}}}
+                               {{{$stu->name}}}
                                </div>
 
                             </div>
                         </div>
                     </div>
                     <hr>
-            </a>
-            <!-- end overlay -->
-            
+                </a>
+                <!-- end overlay -->
 
             </div>
-        @endforeach
+            @endforeach
+
         </div>
-        <!-- /.row -->
         @endif
-        <hr>
+        
+
+        @if(count($event->nonprofits)>0)
+        <!-- Related Projects Row -->
+
+        <div class="row">
+        
+            <div class="col-lg-12">
+                <h3 class="page-header">Nonprofits that helped</h3>
+            </div>
+
+            @foreach($event->nonprofits as $nProf)
+
+           
+            <div class="col-sm-3 col-xs-6">
+                <a href="{{ URL::route('nonprofits',array($nProf->id)) }}">
+                    
+                    <!--A hackish way to lay text over an image in bootstrap-->
+                    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+
+                            {{--Insert image--}}
+                            {{ HTML::image("$nProf->images_path/$nProf->cover_photo_name", " ", array('class' => 'img-responsive img-hover img-related')) }}
+                               
+                               <div class="carousel-caption">
+                               {{{$nProf->name}}}
+                               </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </a>
+                <!-- end overlay -->
+
+            </div>
+            @endforeach
+
+        </div>
+        @endif
+
 @stop
