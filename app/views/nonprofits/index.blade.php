@@ -7,13 +7,13 @@
         <!--Pageheading-->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Groups
+                <h1 class="page-header">Nonprofits
                     <small>Helping Make a Difference</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="{{URL::to('/')}}">Home</a>
                     </li>
-                    <li class="active">Groups</li>
+                    <li class="active">Nonprofits</li>
                 </ol>
             </div>
         </div>

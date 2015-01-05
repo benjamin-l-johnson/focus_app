@@ -7,13 +7,13 @@
     <!--Pageheading-->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Student Organizations
+                <h1 class="page-header">Groups
                     <small>Helping Make a Difference</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="/">Home</a>
                     </li>
-                    <li class="active">Student Organizations</li>
+                    <li class="active">Groups</li>
                 </ol>
             </div>
         </div>
