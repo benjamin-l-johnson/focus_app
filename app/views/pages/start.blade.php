@@ -107,7 +107,7 @@
                         <h4><i class="fa fa-fw fa-star"></i> Organizations </h4>
                     </div>
                     <div class="panel-body">
-                        <p>Organization,RSO, school or ... looking to sign up for an event?</p>
+                        <p>Our partnered student organizations and nonprofits</p>
                         <a href="" class="btn btn-default">Learn More</a>
                     </div>
                 </div>
