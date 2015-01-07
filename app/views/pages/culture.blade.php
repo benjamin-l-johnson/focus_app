@@ -20,6 +20,39 @@
         </div>
         <!-- /.row -->
 
+        <!-- Intro Content -->
+        <div class="row">
+
+            <div class="col-md-6">
+              <h3 class="text-center">Three Core Values</h3>
+              <hr>
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                    <strong>Community</strong>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center">
+                    <strong>Compassion</strong>
+                  </div>
+                </div>
+
+                <div class="panel panel-primary">
+                  <div class="panel-heading text-center">
+                    <strong>Development</strong>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <img class="img-responsive" src="{{URL::asset('images/135.JPG')}}" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+        
 
         <!-- Video embed -->
         <div class="row">

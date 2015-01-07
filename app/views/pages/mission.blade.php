@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">History, Mission & Vision
-                    <small>What We're All About</small>
+                    <small>Looking to the Future</small>
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="{{URL::to('/')}}">Home</a>
@@ -23,8 +23,7 @@
 
 
         <div class="row">
-            <div class="col-lg-12">
-            </div>
+
             <div class="col-md-4">
                 <h4>History of organization</h4>
                 <hr>
@@ -46,10 +45,18 @@
         </div>
         <!-- /.row -->
         
+        <div class="row">
 
-        <!--Goals  -->
+        <div class="col-lg-12">
+            <h4 class="page-header">Goals</h4>
+        </div>
+        </div>
+    <!--Goals  -->
+    <div class="row">
+        
+        <!-- Goal 1 -->
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-          <div class="panel panel-default">
+          <div class="panel panel-primary">
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -63,7 +70,9 @@
               </div>
             </div>
           </div>
-          <div class="panel panel-default">
+
+
+          <div class="panel panel-primary">
             <div class="panel-heading" role="tab" id="headingTwo">
               <h4 class="panel-title">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -77,7 +86,9 @@
               </div>
             </div>
           </div>
-          <div class="panel panel-default">
+
+
+          <div class="panel panel-primary">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -91,47 +102,24 @@
               </div>
             </div>
           </div>
+
+
+          <div class="panel panel-primary">
+            <div class="panel-heading" role="tab" id="headingFour">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Goal #4
+                </a>
+              </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body">
+                Expose our officers to experiences that further their professional development.
+              </div>
+            </div>
+          </div>
         </div>
-        
-<!--         <div class="row">
-            <div class="col-md-12">
-            <h3 class="page-header">
-                    Goals
-                </h3>
-              <div class="panel panel-default">
-
-                <ul id="myTab" class="nav nav-tabs nav-justified">
-                    <li class="active"><a href="#goal-one" data-toggle="tab"><i class="fa fa-book"></i> Goal 1</a>
-                    </li>
-                    <li class=""><a href="#goal-two" data-toggle="tab"><i class="fa fa-car"></i> Goal 2</a>
-                    </li>
-                    <li class=""><a href="#goal-three" data-toggle="tab"><i class="fa fa-binoculars"></i> Goal 3</a>
-                    </li>
-                    <li class=""><a href="#goal-four" data-toggle="tab"><i class="fa fa-binoculars"></i> Goal 4</a>
-                    </li>
-                </ul>
-
-                <div id="myTabContent" class="tab-content">
-                    <div class="tab-pane fade active in" id="goal-one">
-                        <p>Acquire a 501(c)3 License (i.e. non-profit license).</p>
-                    </div>
-                    <div class="tab-pane fade" id="goal-two">
-                        <p>Have 50 partnerships within our network.</p>
-                    </div>
-                    <div class="tab-pane fade" id="goal-three">
-                        <p>Provide ten schools around the Kalamazoo Area with our services.</p>
-                    </div>
-                    <div class="tab-pane fade" id="goal-four">
-                        <p>Expose our officers to experiences that further their professional development.</p>
-                    </div>
-                </div>
-
-            </div> -->
-            <!-- /panel -->
-
-        <!-- </div>  -->
         <!-- /row -->
-
 
         </div>
         <!-- /container -->
