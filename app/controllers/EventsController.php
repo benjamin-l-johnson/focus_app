@@ -20,7 +20,7 @@ class EventsController extends BaseController {
 	public function index()
 	{
 
-		$events = Vent::orderBy('id','desc')->paginate(10);
+		$events = Vent::orderBy('date','desc')->paginate(10);
 		
 		
 		//$files = File::files($public_path);

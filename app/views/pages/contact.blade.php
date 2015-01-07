@@ -76,16 +76,16 @@
                 </p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.facebook.com/FOCUSKalamazoo"><i class="fa fa-facebook-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/groups/FOCUS-Kalamazoo-6784026"><i class="fa fa-linkedin-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="https://www.youtube.com/user/FOCUSKalamazoo"><i class="fa fa-youtube-square fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        <a href="https://plus.google.com/u/0/103581833821798494114/posts"><i class="fa fa-google-plus-square fa-2x"></i></a>
                     </li>
                 </ul>
             </div>

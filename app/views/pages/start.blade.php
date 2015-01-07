@@ -51,8 +51,26 @@
             <div class="col-lg-12">
                 <h1 class="page-header">
                     FOCUS Kalamazoo
+
                 </h1>
             </div>
+        </div>  
+
+        <div class="row">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-body">
+                <!-- <blockquote class="blockquote-reverse"> -->
+                    <blockquote style="margin:0 0 1px;">
+                        <p>Changing the negative stereotypes surrounding volunteering by treating our volunteers and partners like royalty.</p>
+                    </blockquote>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+
 
             <!-- volunteer-->
             <div class="col-md-3">
@@ -67,6 +85,7 @@
                     </div>
                 </div>
             </div>
+
 
             <!-- Past events -->
             <div class="col-md-3">
@@ -116,16 +135,16 @@
 
             <!-- Video embed -->
         <div class="row">
-            <div class = "col-lg-8">
+            <div class = "col-md-8">
                 <div class="panel panel-default">
                     <div class="panel-body">
                             <div class="embed-responsive embed-responsive-4by3">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7YuF_YfblXQ?autoplay=0"></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7YuF_YfblXQ?autoplay=0&html5=1"></iframe>
                             </div>
                     </div>
                 </div>
             </div>
-             <div class = "col-lg-4">
+             <div class = "col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                                 <iframe class="embed-responsive-item" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ffocuskalamazoo&amp;width&amp;height=500&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:500px;" allowTransparency="true"></iframe>
@@ -135,8 +154,8 @@
             </div>
 
         </div>
-
         <!--/video-->
+        
         </div>
         <!-- /.row -->
 

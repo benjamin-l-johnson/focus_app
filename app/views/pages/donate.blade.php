@@ -29,27 +29,28 @@
                 <img class="img-responsive" src="{{URL::asset('images/facebookCover.jpg')}}" alt="">
             </div>
             <div class="col-md-6">
-                <h2>The expenses that you would be donating to:</h2>
+                <h3>The expenses that you would be donating to:</h3>
 
                 <p>
                     <ul>
                         <li>
-                            <b>501(c)3 License:</b> The next step for our organization is to apply for our 501(c)3 so that we can become an official nonprofit. 
+                            <b>501(c)3 License:</b> The next step for our organization is to apply for our 501(c)3 so that we can become an official nonprofit.
                         </li>
-
-                        <li>
-                            <b>Food & Beverages:</b> The food and beverages are for our volunteers during events. Food is also given to the residents of the Rickman House, a nonprofit partner of ours. 
-                        </li>
-
                         <li>
                             <b>Marketing & Promotional Items:</b> These items include business cards, flyers, and banners.
                         </li>
-                        
+                        <li>    
+                            <b>Food & Beverages:</b> The food and beverages are for our volunteers during events. Food is also given to the residents of the Rickman House, a nonprofit partner of ours.
+                        </li>
+
                         <li>
-                        <b>Operations:</b> Incentives for the FOCUS Staff: Our staff works long and hard hours, and we are in dire need for ways to show our appreciation for all of the hard word they. The incentives would be rewards for the “Most Committed Staff Members,” “Social Change Leader of the Year,” and “Most Improved.”
+                            <b>Incentives for the FOCUS Staff:</b> Our staff works long and hard hours, and we are in dire need for ways to show our appreciation for all of the hard word they. The incentives would be rewards for the “Most Committed Staff Members,” “Social Change Leader of the Year,” and “Most Improved.”
                         </li>
                     </ul>
                 </p>
+
+
+
 
 
             </div>
@@ -105,6 +106,8 @@
                     <b>Assets:</b> Donate your business’ assets to FOCUS. This includes, food, office space, network, and anything else you and your business might have to offer.
                     </li>
                     </ul>
+                    Contact us at  <a href="mailto:focuskalamazoo@gmail.com?Subject=Donate%20Your%20Expertise%20and%20Resources" target="_top">focuskalamazoo@gmail.com</a> or call/text  
+                    <i class="fa fa-phone"></i> (269) 250-0278 if you want to donate your expertise and resources.
                 </p>
             </div>
             <div class="col-md-6">

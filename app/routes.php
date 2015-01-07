@@ -47,6 +47,11 @@ Route::any('donate', function()
 	return View::make('pages.donate');
 });
 
+Route::any('mission', function()
+{
+	return View::make('pages.mission');
+});
+
 /*
 * Events controllers
 */
