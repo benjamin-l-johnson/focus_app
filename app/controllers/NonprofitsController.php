@@ -20,7 +20,7 @@ class NonprofitsController extends BaseController {
 	public function index()
 	{
 
-		$nProfs = Nonprofit::orderBy('id','desc')->paginate(5);
+		$nProfs = Nonprofit::orderBy('rank','desc')->paginate(5);
 		
 
 		

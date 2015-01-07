@@ -39,7 +39,7 @@ Route::any('services', function()
 Route::any('team', ['as'=>'team', function()
 {
 
-	return View::make('pages.team')->withMembers(Member::orderBy('Name','asc')->get())->withVolunteers(Volunteer::orderBy('rank','desc')->paginate(8));
+	return View::make('pages.team')->withMembers(Member::orderBy('order','desc')->get())->withVolunteers(Volunteer::orderBy('rank','desc')->paginate(50));
 }]);
 
 Route::any('donate', function()

@@ -20,7 +20,7 @@ class StudentsController extends BaseController {
 	public function index()
 	{
 
-		$students = Student::orderBy('id')->paginate(5);
+		$students = Student::orderBy('rank','desc')->paginate(5);
 		
 
 		
