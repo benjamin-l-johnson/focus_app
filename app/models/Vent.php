@@ -16,5 +16,11 @@ class Vent extends Eloquent {
 	public function volunteers() {
 		return $this->belongsToMany('Volunteer','vents_volunteers','vent_id','volunteer_id');
 	}
+
+
+	public function images()
+    {
+        return $this->morphMany('Image', 'imageable');
+    }
  
 }

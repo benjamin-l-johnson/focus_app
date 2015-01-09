@@ -26,10 +26,10 @@
             <div class="col-md-8">
                 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
-                    @if(count($files)>0)
+                    @if(count($event->images())>0)
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        @for ($i = 1; $i < count($files); $i++)
+                        @for ($i = 1; $i < count($event->images()); $i++)
                         <li data-target="#carousel-example-generic" data-slide-to="$i"></li>
                         @endfor
                     </ol>
@@ -40,15 +40,15 @@
                     
                         {{--display first image --}}
                         <div class="item active">
-                            {{ HTML::image("$event->images_path/$files[0]", " ", array('class' => 'img-responsive')) }}
+                            {{ HTML::image("$event->images_path/$event->images->toArray()", " ", array('class' => 'img-responsive')) }}
                         </div>
                     
                     {{--For loop to display rest--}}
-                    @for ($i = 1; $i < count($files); $i++)
+                    @foreach ($event->images as $image)
                         <div class="item">
-                            {{ HTML::image("$event->images_path/$files[$i]", " ", array('class' => 'img-responsive')) }}
+                            {{ HTML::image("$event->images_path$image->name", " ", array('class' => 'img-responsive')) }}
                         </div>
-                    @endfor
+                    @endforeach
 
 
                     </div>
